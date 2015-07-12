@@ -1,0 +1,271 @@
+/*Default*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+}
+
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+/* Layout Grid */
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    min-height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.name {
+  font-size: 5em;
+  color: #333;
+  margin: 0;
+  padding-left: 5%;
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 2em;
+  color: #333;
+  padding-left: 15%;
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.box {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Box and Row Colors*/
+.dark_blue {
+  background-color: #2a457a;
+  color: #efefef;
+}
+
+.light_blue {
+  background-color: #099dd9;
+}
+
+.green {
+  background-color: #0c8542;
+}
+
+.lime {
+  background-color: rgb(179, 210, 52);
+}
+
+.seafoam {
+  background-color: rgb(77, 190, 161);
+}
+
+.red {
+  background-color: #ec1d3b;
+}
+
+.orange {
+  background-color: #f79420;
+  text-align: center;
+  min-height: 150px;
+  display: block;
+}
+.purple {
+  background-color: purple;
+}
+
+.bigimage {
+  width: 100%;
+  min-height: 204px;
+  display: block;
+}
+
+/*Social*/
+
+.social {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  line-height: 100px;
+  overflow: scroll;
+}
+
+.twitter {
+  color: #55acee;
+  background-color: white;
+}
+
+.github {
+  background-color: #ffc09c;
+  color: #a03130;
+}
+
+.email {
+  background-color: #fb0006;
+  color: white;
+}
+
+/*
+Header
+*/
+.logo {
+  max-height: 100px;
+}
+
+
+/*
+Break points
+*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 451px) {
+  .col-1 {
+      width: 100%;
+  }
+
+  .col-2 {
+      width: 100%;
+  }
+
+  .col-3 {
+      width: 100%;
+  }
+
+  .col-4 {
+      width: 100%;
+  }
+
+  .col-5 {
+      width: 100%;
+  }
+
+  .col-6 {
+      width: 100%;
+  }
+
+  .col-7 {
+      width: 100%;
+  }
+
+  .col-8 {
+      width: 100%;
+  }
+
+  .col-9 {
+      width: 100%;
+  }
+
+  .col-10 {
+      width: 100%;
+  }
+
+  .col-11 {
+      width: 100%;
+  }
+
+  .col-12 {
+      width: 100%;
+  }
+
+  .row {
+    display: initial;
+  }
+
+  .name {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    margin: 45px;
+  }
+}
